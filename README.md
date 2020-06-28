@@ -15,7 +15,7 @@ This starter uses Wordpress + ACF to create a page builder set up, that include 
     
     _The child theme contains the JSON for the component/layout acf fields. It also contains a functions.php, which hooks into wordpress to sync the acf fields, and also creates relative menu paths for Gatsby._    
     
-    Update the wordpress url in `.env.development` to point to your wordpress backend.
+    Create a `.env.development` file with a variable named `WORDPESS_URL` pointing to your local wordpress install. E.g `WORDPRESS_URL="http://mylocalwordpress.dev"`.
 
 
 ## Developing 
